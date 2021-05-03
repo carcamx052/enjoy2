@@ -29,7 +29,7 @@
 	return NULL;
 }
 
--(void) trigger (JoystickController *)jc {
+-(void) trigger {
 	[[[[NSApplication sharedApplication] delegate] configsController] activateConfig:config forApplication: NULL];
 }
 
